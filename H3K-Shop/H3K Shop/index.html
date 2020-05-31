@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>H2K Sneaker Shop</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="carouseller.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="js/carouseller.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+</head>
+<body>
+	<header>
+		<section class="container">
+			<div id="header-top">
+				<span><img src="images/phone.png" />0778910803</span>
+				<span><img src="images/email.png" />4401104110@gmail.com</span>
+			</div>
+			<div id="header-bottom">
+				<section id="header-left">
+					<img src="images/logo.png" />
+				</section>
+				<section id="header-right">
+					<section id="header-link">
+						<a id="cart-link" href="#"><img src="images/cart.png" /></a>
+						<a id="login-link" href="./php/login.php">Đăng nhập</a>
+						<a id="register-link" href="./php/register.php"><img src="images/register.png" /></a>
+					</section>
+				</section>
+				<section class="clear-both"></section>
+			</div>
+		</section>
+		<section id="menu">
+			<section class="container">
+				<ul>
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Tin tức</a></li>
+					<li><a href="#">Sản phẩm</a></li>
+					<li><a href="#">Chúng tôi</a></li>
+					<li><a href="#">Liên hệ</a></li>
+					<li class="clear-both"></li>
+				</ul>
+				<form id="product-search" action="#" method="GET">
+					<input type="submit" value="">
+					<input type="text" name="text_search" placeholder="Tìm kiếm" />
+				</form>
+			</section>
+		</section>
+	</header>
+	<section id="product-slide" class="carouseller"> 
+		<a href="javascript:void(0)" class="carouseller__left">‹</a> 
+		<div class="carouseller__wrap"> 
+			<div class="carouseller__list"> 
+				<div class="car__12">
+					<section class="background-slide" style="background: #9ccd8d;"></section>
+					<section class="wrap-slide">
+						<section class="slide-left">
+							<section class="product-name">
+								<span>Will</span><span>Helm</span><span class="last-span">Winter</span>
+								<section class="clear-both"></section>
+							</section>
+							<section class="wrap-button">
+								<section class="left-buy-button"></section>
+								<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+								<section class="right-buy-button"></section>
+								<section class="clear-both"></section>
+							</section>
+						</section>
+						<section class="slide-right">
+							<img src="images/shoes-1.png" />
+						</section>
+					</section>
+				</div>
+				<div class="car__12">
+					<section class="background-slide" style="background: #6898ef;"></section>
+					<section class="wrap-slide">
+						<section class="slide-left">
+							<section class="product-name">
+								<span>Will</span><span>Helm</span><span class="last-span">Winter 2</span>
+								<section class="clear-both"></section>
+							</section>
+							<section class="wrap-button">
+								<section class="left-buy-button"></section>
+								<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+								<section class="right-buy-button"></section>
+								<section class="clear-both"></section>
+							</section>
+						</section>
+						<section class="slide-right">
+							<img src="images/shoes-2.png" />
+						</section>
+					</section>
+				</div>
+				<div class="car__12">
+					<section class="background-slide" style="background: wheat;"></section>
+					<section class="wrap-slide">
+						<div class="text-center">
+							<img style="width: 1000px; height: 700px; " src="images/kho-giay.jpg"  />
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:void(0)" class="carouseller__right">›</a>
+	</section>
+	<section id="hot-categories">
+		<section class="container">
+			<section id="wrap-categories">
+				<section class="category">
+					<h3>Nữ</h3>
+					<section class="category-image">
+						<img src="images/woman.jpg" />
+					</section>
+					<section class="total-product">Tổng</section>
+					<section class="number-product">??? sản phẩm</section>
+					<img src="images/product-list-icon.png" />
+				</section>
+				<section class="category center-block">
+					<h3>Nam</h3>
+					<section class="category-image">
+						<img src="images/men.jpg" />
+					</section>
+					<section class="total-product">Tổng</section>
+					<section class="number-product">??? sản phẩm</section>
+					<img src="images/product-list-icon.png" />
+				</section>
+				<section class="category">
+					<h3>Trẻ em</h3>
+					<section class="category-image">
+						<img src="images/kids.jpg" />
+					</section>
+					<section class="total-product">Tổng</section>
+					<section class="number-product">??? sản phẩm</section>
+					<img src="images/product-list-icon.png" />
+				</section>
+				<section class="clear-both"></section>
+			</section>
+		</section>
+	</section>
+	<section id="hot-products">
+		<section class="container">
+			<section class="heading-title">
+				<h2>Sản phẩm <span>hot</span></h2>
+				<a href="#"><img src="images/arrow.png" />Xem tất cả</a>
+				<section class="clear-both"></section>
+			</section>
+			<section class="box-content">
+				<section class="product-item first-line">
+					<section class="brand-icon"><img src="images/nike-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/camper-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item-2.jpg" /></section>
+					<section class="product-name">Converse  Toddler Boy's Athletic Shoe</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/new-balance-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item-3.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/nike-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item first-line">
+					<section class="brand-icon"><img src="images/new-balance-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item-3.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/camper-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item-2.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/new-balance-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item-3.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="product-item">
+					<section class="brand-icon"><img src="images/nike-icon.png" /></section>
+					<section class="product-image"><img src="images/shoes-item.jpg" /></section>
+					<section class="product-name">Giày bóng đá NIKE</section>
+					<section class="wrap-button">
+						<section class="left-buy-button"></section>
+						<section class="content-buy-button"><section class="product-price">? đ</section><a href="#">Mua ngay</a></section>
+						<section class="right-buy-button"></section>
+						<section class="clear-both"></section>
+					</section>
+				</section>
+				<section class="clear-both"></section>
+			</section>
+		</section>
+	</section>
+	<footer>
+		<section class="container">
+			<section id="footer-logo">
+				<img src="images/footer-logo.png" />
+			</section>
+			<section id="footer-link">
+				<ul>
+					<li><a href="#">Chúng tôi</a></li>
+					<li><a href="#">Hỏi đáp</a></li>
+					<li><a href="#">Điều khoản sử dụng</a></li>
+					<li><a href="#">Thanh toán bảo mật</a></li>
+					<li><a href="#">Giao hàng</a></li>
+					<li><a href="#">Liên hệ</a></li>
+				</ul>
+			</section>
+			<section id="social-network-link">
+				<a href="#"><img src="images/pinterest.png" /></a>
+				<a href="#"><img src="images/twitter.png" /></a>
+				<a href="#"><img src="images/facebook.png" /></a>
+			</section>
+			<section class="clear-both"></section>
+		</section>
+	</footer>
+	<script type="text/javascript">
+		$(function() {
+			$('#product-slide').carouseller();
+		});
+	</script>
+</body>
+</html>
